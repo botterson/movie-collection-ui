@@ -1,0 +1,41 @@
+
+.mainlayout {
+  width: 100%;
+  /* height: 100%; */
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+
+.headerText {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 20px;
+  font-size: 32px;
+  color: white;
+}
+
+.sidebar {
+  width: 300px;
+  min-height: 500px;
+  flex-flow: column;
+  background-color: antiquewhite;
+}
+
+.menuDiv {
+  padding: 15px;
+}
+
+.menu {
+  color: black;
+  font-weight: 700;
+}
+
+.contentArea {
+  width: 100%;
+  height: 100%;
+}

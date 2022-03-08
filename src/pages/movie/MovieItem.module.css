@@ -1,0 +1,31 @@
+.Card {
+  max-width: 800px;
+  width: 800px;
+}
+
+h3 {
+  cursor: pointer;
+}
+
+.item {
+  display:flex;
+  /* flex-flow: row; */
+}
+
+.name {
+  width: 80%
+}
+
+.rating {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: #40005d;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+  min-width: 20px;
+  max-width: 120px;
+  flex: auto;
+  text-align: center;
+}

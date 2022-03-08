@@ -1,0 +1,39 @@
+
+@media (min-width: 768px) {
+  .modal {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 30vh;
+  left: 10%;
+  width: 80%;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.card.cardRow {
+  padding: 10px;
+}
+
+.item p {
+  color: #3a3a3a;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addBtn {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
